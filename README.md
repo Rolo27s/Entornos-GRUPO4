@@ -1,56 +1,14 @@
 # Entornos-GRUPO4
-## Entornos-GRUPO4
-## MENSAJE PARA LOS DEVELOPPERS!!!
-* LA IDEA ES HACER UN GIT CLONE.
-* COGER ESTE CODIGO COMO BASE ESTRUCTURAL.
-* GENERAR UNA RAMA NUEVA QUE SE LLAME GRUPO_4-"TU_NOMBRE"
-* DESARROLLAR TU PROYECTO APROVECHANDO LA ESTRUCTURA BASICA
-* PUSHEAR EL PROYECTO PERSONAL TERMINADO
-* 'er jefe' hará un merge de las ramas hacia en main
 
-## Recordatorio de comandos básicos de GIT
-# Configuracion inicial
-# Configurar el nombre de usuario
-git config --global user.name "Tu nombre"
-
-# Configurar el correo electrónico
-git config --global user.email "tu@email.com"
-
-# Configurar el editor de texto preferido
-git config --global core.editor "nombre_del_editor"
-
-# Iniciar un nuevo repositorio local
-git init
-
-# Clonar un repositorio remoto
-git clone <URL_del_repositorio>
-
-# Verificar el estado de los archivos
-git status
-
-# Agregar archivos para ser rastreados
-git add <nombre_del_archivo>
-
-# Agregar todos los archivos modificados para ser rastreados
-git add .
-
-# Confirmar los cambios
-git commit -m "Mensaje del commit"
-
-# Verificar el historial de commits
-git log
-
-# Crear una nueva rama
-git branch <nombre_de_la_rama>
-
-# Cambiar a una rama específica
-git checkout <nombre_de_la_rama>
-
-# Fusionar una rama con la rama actual
-git merge <nombre_de_la_rama>
-
-# Actualizar y obtener cambios del repositorio remoto
-git pull
-
-# Subir cambios al repositorio remoto
-git push origin <nombre_de_la_rama>
+## Metodología de trabajo:
+  1. git init en vuestra carpeta nueva para trabajar en el proyecto
+  2. Haced un git pull https://github.com/Rolo27s/Entornos-GRUPO4.git
+  3. Trabajar en tu propio codigo desde tu propia rama. En este caso hay solo 3 opciones
+    3.1. git checkout PABLO_CABELLO
+    3.2. git checkout JORGE
+    3.3. git checkout FRANCIS
+  4. Una vez estes en tu propia rama tienes que ir haciendo cada x tiempo:
+    4.1. git add . (pasa los cambios al stage de commit)
+    4.2. git commit -m "mensaje que explique que has desarrollado"
+    4.3. git log --oneline, para comprobar tus avances
+  5. Cuando termines tu proyecto haz un git push https://github.com/Rolo27s/Entornos-GRUPO4.git
