@@ -1,0 +1,140 @@
+<!-- MENSAJE PARA LOS DEVELOPPERS!!!
+LA IDEA ES HACER UN GIT CLONE.
+COGER ESTE CODIGO COMO BASE ESTRUCTURAL.
+GENERAR UNA RAMA NUEVA QUE SE LLAME GRUPO_4-"TU_NOMBRE"
+DESARROLLAR TU PROYECTO APROVECHANDO LA ESTRUCTURA BASICA
+PUSHEAR EL PROYECTO PERSONAL TERMINADO
+'er jefe' hará un merge de las ramas hacia en main -->
+
+<!-- 
+ENUNCIADO: TÚ MISMO
+Se trata de realizar cada uno, una página web sobre uno mismo, aficiones, anécdotas, porqué este módulo, familiar especial, música, lectura, metas a alcanzar, alguna fotillo de pequeño/a….
+
+El trabajo consiste en utilizar Git y Github. Para ello, crearemos grupos de 5 miembros. Cada uno realizará su propia página con el diseño que queráis y luego la integraréis en la página principal del grupo, la cual entre todos decidiréis el diseño y habrá uno del grupo que se encargue de diseñarla y llevar el control de ella en Github.
+
+El repositorio será privado y la persona encargada de controlarlo, ‘er jefe’, compartirá su enlace para que todos puedan trabajar, mediante ramas.
+
+Al final cuando esté realizado todo, ‘er jefe’ subirá el trabajo al repositorio de la profe, ‘super jefe’, que sólo compartirá el repositorio, entre todos os pondréis de acuerdo en cómo será la página principal y decidiréis como hacerla para añadir cada uno de los trabajos grupales.
+Er jefe de cada grupo creara un informe final donde se vea quien ha hecho cada página y un informe de todos los commits, del grupo.
+
+Mi grupo es el grupo 4
+    FRANCIS
+    JORGE
+    PABLO CABELLO
+    FRAN (YO)
+
+MEJORA DE RESOLUCION AL PROBLEMA PLANTEADO POR ANALOGÍA:
+    - Al igual que cuando 'er jefe' tenga preparado el proyecto, lo subirá al repositorio de la 'super jefe', veo más factible hacer el mismo
+    proceso en el nivel jerárquico más bajo.
+
+    - Procedo a desarrollar mi parte de 'er jefe'. Se estará trabajando en la rama main.
+    - Cuando finalice mi parte, desde mi repositorio, generaré tantas ramas como desarrolladores tenga en mi equipo (en este caso serían 3 ramas) ellos generarán un push o yo un pull.
+    - Al usar esta metodología no habrá conflictos a la hora de realizar el merge de todas las ramas hacia el main.
+    - En el momento que tenga el proyecto completo de 'er jefe' en el main, procederé a pushear a la 'super jefe'
+
+    * Para que la web (al menos por grupos) tenga algo más de lógica estética, tiene sentido que 'er jefe' comparta el main, los demás hagan un clone + un branch y luego un push. De esa manera tendremos el mismo nav y la misma estructura.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Grupo_4 - Francis</title>
+</head>
+<header>
+    <h1>ENTORNOS DE DESARROLLO (GIT) - GRUPO 4</h1>
+</header>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Menu&nbsp;Grupo&nbsp;4</a></li>
+            <li><a href="../JORGE/index.html">JORGE</a></li>
+            <li><a href="../FRANCIS/index.html">FRANCIS</a></li>
+            <li><a href="../PABLO_CABELLO/index.html">PABLO_CABELLO</a></li>
+            <li><a href="../FRAN_RODRIGUEZ/index.html">FRAN</a></li>
+        </ul>
+    </nav>
+    <div class="principal">
+        <main>
+            <section>
+                <h2>Hola soy Fran Márquez</h2>
+                <article>
+                    <h3>Mis aficiones son</h3>
+                    <ul>
+                        <li>Videojuegos</li>
+                        <li>Lectura</li>
+                        <li>Deporte</li>
+                    </ul>
+                </article>
+                <article>
+                    <!-- IMAGEN DE MI AFICION FAVORITA -->
+                    <img src="./Foto2.png" alt="">
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h3>Por qué este módulo?</h3>
+                    <p>La idea de escoger este módulo llegó casi sin quererlo ya que no contaba con que me escogieran y
+                        pensaba seguir trabajando otro año más. Por qué este y no otro? Creo que es muy práctico y que,
+                        si no me dedicara profesionalmente a esto, creo que son unos conocimientos muy útiles en la
+                        sociedad actual.
+                    </p>
+                </article>
+                <article>
+                    <h3>Alguna anécdota personal...</h3>
+                    <p>Como ya sabéis mi pasión por el baile era tremenda siendo yo pequeño, tal es así que me sabía el
+                        baile de "La Bomba" de King África de memoria desde los 4 a los 9 años. Era recurrente que, de
+                        forma inesperada, mi familia pusiera la canción y yo, encantado de la vida, me pusiera a
+                        bailarla para mostrar mis mejores pasos a diferentes amigos y familiares.
+                    </p>
+                </article>
+            </section>
+            <!-- SECCION DE GUSTOS PERSONALES -->
+            <section>
+                <article>
+                    <h3>HOBBIES</h3>
+                    <p>Desarrolla hobbies...
+                        A medida que he ido creciendo mis gustos han ido cambiando, ya sean musicales, moda, etc. Sin
+                        embargo, mis tres hobbies favoritos se mantienen. Los videojuegos, la lectura y el deporte son,
+                        para mí, algo imprescindible. A los videojuegos empecé con el mítico Pokémon Esmeralda, a la
+                        lectura gracias a Sherlock Holmes y al deporte en el equipo de fútbol de mi barrio.
+                    </p>
+                </article>
+            </section>
+            <!-- SECCION DE METAS -->
+            <section>
+                <article>
+                    <h3>METAS A ALCANZAR</h3>
+                    <p>Desarrolla metas a alcanzar...
+                        Mi meta a alcanzar es seguir desarrollándome en el ámbito personal y, en lo que se pueda, tener
+                        un trabajo que me permita tener el tiempo suficiente para poder explorar diferentes aspectos de
+                        mí mismo.
+                    </p>
+                </article>
+            </section>
+        </main>
+        <!-- EN EL ASIDE IRA UN PEQUEÑO TROZO DE TU HISTORIA. DONDE NACISTE Y TE CRIASTE Y UNA FOTIYO -->
+        <aside>
+            <h2>Mi historia...</h2>
+            <!-- IMAGEN PERSONAL DE PEQUEÑO -->
+            <img src="./Foto1.png" alt="">
+            <p>Nací en Málaga, aunque me crié en Churriana. De pequeño, por motivos que a día de hoy desconozco, siempre
+                me gustaba bailar (como las imágenes prueban). Además, con el tiempo, fui perdiendo mi hermoso cabello
+                rubio pero por suerte he ido ganando más y más virtudes. Tras el colegio y el instituto (y un intento
+                fallido de universitario) estoy en el módulo de DAW para acabar siendo un profesional.
+            </p>
+            
+        </aside>
+    </div>
+
+    <footer>
+        <h4>Todos los derechos reservados © 2023</h4>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+﻿<!-- MENSAJE PARA LOS DEVELOPPERS!!!
+LA IDEA ES HACER UN GIT CLONE.
+COGER ESTE CODIGO COMO BASE ESTRUCTURAL.
+GENERAR UNA RAMA NUEVA QUE SE LLAME GRUPO_4-"TU_NOMBRE"
+DESARROLLAR TU PROYECTO APROVECHANDO LA ESTRUCTURA BASICA
+PUSHEAR EL PROYECTO PERSONAL TERMINADO
+'er jefe' hará un merge de las ramas hacia en main -->
+
+<!-- 
+ENUNCIADO: TÚ MISMO
+Se trata de realizar cada uno, una página web sobre uno mismo, aficiones, anécdotas, porqué este módulo, familiar especial, música, lectura, metas a alcanzar, alguna fotillo de pequeño/a….
+
+El trabajo consiste en utilizar Git y Github. Para ello, crearemos grupos de 5 miembros. Cada uno realizará su propia página con el diseño que queráis y luego la integraréis en la página principal del grupo, la cual entre todos decidiréis el diseño y habrá uno del grupo que se encargue de diseñarla y llevar el control de ella en Github.
+
+El repositorio será privado y la persona encargada de controlarlo, ‘er jefe’, compartirá su enlace para que todos puedan trabajar, mediante ramas.
+
+Al final cuando esté realizado todo, ‘er jefe’ subirá el trabajo al repositorio de la profe, ‘super jefe’, que sólo compartirá el repositorio, entre todos os pondréis de acuerdo en cómo será la página principal y decidiréis como hacerla para añadir cada uno de los trabajos grupales.
+Er jefe de cada grupo creara un informe final donde se vea quien ha hecho cada página y un informe de todos los commits, del grupo.
+
+Mi grupo es el grupo 4
+    FRANCIS
+    JORGE
+    PABLO CABELLO
+    FRAN (YO)
+
+MEJORA DE RESOLUCION AL PROBLEMA PLANTEADO POR ANALOGÍA:
+    - Al igual que cuando 'er jefe' tenga preparado el proyecto, lo subirá al repositorio de la 'super jefe', veo más factible hacer el mismo
+    proceso en el nivel jerárquico más bajo.
+
+    - Procedo a desarrollar mi parte de 'er jefe'. Se estará trabajando en la rama main.
+    - Cuando finalice mi parte, desde mi repositorio, generaré tantas ramas como desarrolladores tenga en mi equipo (en este caso serían 3 ramas) ellos generarán un push o yo un pull.
+    - Al usar esta metodología no habrá conflictos a la hora de realizar el merge de todas las ramas hacia el main.
+    - En el momento que tenga el proyecto completo de 'er jefe' en el main, procederé a pushear a la 'super jefe'
+
+    * Para que la web (al menos por grupos) tenga algo más de lógica estética, tiene sentido que 'er jefe' comparta el main, los demás hagan un clone + un branch y luego un push. De esa manera tendremos el mismo nav y la misma estructura.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Grupo_4 - FranRo</title>
+</head>
+<header>
+    <h1>ENTORNOS DE DESARROLLO (GIT) - GRUPO 4</h1>
+</header>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Menu&nbsp;Grupo&nbsp;4</a></li>
+            <li><a href="../JORGE/index.html">JORGE</a></li>
+            <li><a href="../FRANCIS/index.html">FRANCIS</a></li>
+            <li><a href="../PABLO_CABELLO/index.html">PABLO_CABELLO</a></li>
+            <li><a href="../FRAN_RODRIGUEZ/index.html">FRAN</a></li>
+        </ul>
+    </nav>
+    <div class="principal">
+        <main>
+            <section>
+                <h2>Hola soy $nombre</h2>
+                <article>
+                    <h3>Mis aficiones son</h3>
+                    <ul>
+                        <li>$aficion1</li>
+                        <li>$aficion2</li>
+                        <li>$aficion3</li>
+                    </ul>
+                </article>
+                <article>
+                    <!-- IMAGEN DE MI AFICION FAVORITA -->
+                    <img src="" alt="" title="Mi_aficion">
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h3>por qué este módulo?</h3>
+                    <p>Desarrolla un poco los motivos de por que este modulo...
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero a molestiae ut unde est enim sunt accusantium quae possimus, iusto officia velit aliquam perferendis nisi quos? Eveniet, commodi. Eum, iste?
+                    </p>
+                </article>
+                <article>
+                    <h3>Alguna anécdota personal...</h3>
+                    <p>Desarrolla un poco una anecdota personal...
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero a molestiae ut unde est enim sunt accusantium quae possimus, iusto officia velit aliquam perferendis nisi quos? Eveniet, commodi. Eum, iste?
+                    </p>
+                </article>
+            </section>
+            <!-- SECCION DE GUSTOS PERSONALES -->
+            <section>
+                <article>
+                    <h3>HOBBIES</h3>
+                    <p>Desarrolla hobbies...
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero a molestiae ut unde est enim sunt accusantium quae possimus, iusto officia velit aliquam perferendis nisi quos? Eveniet, commodi. Eum, iste?
+                    </p>
+                </article>
+            </section>
+            <!-- SECCION DE METAS -->
+            <section>
+                <article>
+                    <h3>METAS A ALCANZAR</h3>
+                    <p>Desarrolla metas a alcanzar...
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero a molestiae ut unde est enim sunt accusantium quae possimus, iusto officia velit aliquam perferendis nisi quos? Eveniet, commodi. Eum, iste?
+                    </p>
+                </article>
+            </section>
+        </main>
+        <!-- EN EL ASIDE IRA UN PEQUEÑO TROZO DE TU HISTORIA. DONDE NACISTE Y TE CRIASTE Y UNA FOTIYO -->
+        <aside>
+            <h2>Naci en la toscana...</h2>
+            <!-- IMAGEN PERSONAL DE PEQUEÑO -->
+            <img src="" alt="">
+            <p>En un pequeño pueblo napolitano, entre pasta y albondigas, nací un día de primavera...
+                Me críe entre grandes robles y naturaleza abundante...
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto autem quos voluptate, doloribus voluptatibus animi nam ab rem eligendi placeat aspernatur repellat, ut porro, odit laborum. Esse tempora modi dolorem.
+            </p>
+        </aside>
+    </div>
+    
+    <footer>
+        <h4>Todos los derechos reservados © 2023</h4>
+    </footer>
+</body>
+</html>
