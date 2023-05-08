@@ -1,0 +1,155 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s;
+}
+
+h1 {
+    padding: 0.25em;
+    text-align: center;
+    background: linear-gradient(#eee, rgb(240, 192, 146, 0.8));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background: radial-gradient(rgb(240, 192, 146, 0.8), rgba(138, 92, 50, 0.8));
+    min-height: 100vh;
+}
+
+span.menuPpal {
+    font-size: 3em;
+    font-weight: 600;
+    margin-left: 10%;
+    position: relative;
+    top: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+nav {
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    position: sticky;
+    top: 0;
+    background-color: rgb(240, 192, 146, 0.6);
+}
+
+article ul li {
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    padding: 4px 18px;
+    background-color: rgb(240, 192, 146, 0.8);
+    border-left: 2px solid rgb(146, 88, 1);
+}
+
+nav ul li:last-child {
+    border-right: 2px solid rgb(146, 88, 1);
+}
+
+nav ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #2c2a29;
+}
+
+nav ul li:hover {
+    background-color: rgba(230, 140, 57, 0.8);
+}
+nav ul li:hover a{
+    color: #cc2727;
+}
+
+p {
+    max-width: 500px;
+    margin-bottom: 1em;
+}
+
+.principal {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 1em;
+    justify-content: space-around;
+    padding-bottom: 2em;
+}
+
+aside {
+    width: 25%;
+    padding: 2em 0em;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border: 4px dashed rgba(255, 228, 206, 0.8);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    max-width: 600px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #c56a20;
+    padding: 4px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+footer h4 {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+section, article {
+    margin-top: 1em;
+}
+
+/* ------------------------------------------------------ */
+/* MEDIA QUERIES */
+@media all and (max-width:640px) {
+    .principal, aside{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        border-bottom: 1px solid rgb(44, 42, 41, 0.8);
+    }
+
+    span.menuPpal {
+        font-size: 1em;
+    }
+}
+
+@media all and (min-width:640px) and (max-width:1280px) {
+    .principal{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    aside {
+        width: 50%;
+    }
+}
